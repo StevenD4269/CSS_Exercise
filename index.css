@@ -20,17 +20,18 @@ section{
 }
 
 
-/*An id gets a #*/
+/*An id gets a #, this selects the first element it can find that has an id equal to title*/
 #title {
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 800; /*font weight is the thickness of the text line */
 }
 
 .d-inline {
     display: inline;
 }
 
-nav ul {
+/* the > symbol ensures that ul has to be a direct child to nav*/
+nav > ul {
     list-style: none;
 }
 
